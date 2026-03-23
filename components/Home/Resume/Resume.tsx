@@ -7,17 +7,23 @@ import { SiBookstack } from "react-icons/si";
 
 const Resume = () => {
   return (
-    <div className="pt-20 pb-16">
+    <div id="resume" className="pt-20 pb-16">
       <div className="w-[90%] sm:w-[70%] mx-auto block">
         <div>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            My Work <span className="text-cyan-200">Experience</span>
+            My <span className="text-cyan-200">Work Experience</span>
           </h1>
           <div className="mt-10">
             <WorkCard
               Icon={MdLocalHospital}
+              role="Kondor Primary Care PLLC - Office Manager"
+              date="Oct 2025 - Present"
+              desc=""
+            />
+            <WorkCard
+              Icon={MdLocalHospital}
               role="Reunion Medical Services PLLC - Office Manager"
-              date="Feb 2020 - Present"
+              date="Feb 2020 - Oct 2025"
               desc=""
             />
             <WorkCard
