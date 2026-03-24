@@ -106,7 +106,7 @@ export default function ContactForm() {
       ></textarea>
       <button
         type="submit"
-        className="mt-6 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full"
+        className="px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full"
       >
         Send Message
       </button>
