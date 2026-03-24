@@ -1,7 +1,9 @@
+import { format } from "path";
 import React from "react";
 import { BiMap } from "react-icons/bi";
 import { GrGithub } from "react-icons/gr";
 import { LiaLinkedin } from "react-icons/lia";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -38,24 +40,8 @@ const Contact = () => {
           </div>
         </div>
 
-        {/*Contact Form*/}
-        <div className="md:p-10 p-5 bg-[#131332] rounded-lg">
-          <input
-            type="text"
-            placeholder="Your Name"
-            className="px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
-          ></input>
-          <input
-            type="email"
-            placeholder="example@email.com"
-            className="mt-6 px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
-          ></input>
-          <textarea
-            placeholder="Write your message here"
-            className="mt-6 px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70 h-40"
-          ></textarea>
-          <button className="mt-6 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full">Send Message</button>
-        </div>
+        <ContactForm />
+      
       </div>
     </div>
   );
