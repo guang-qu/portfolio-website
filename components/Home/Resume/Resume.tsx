@@ -7,7 +7,7 @@ import { SiBookstack } from "react-icons/si";
 
 const Resume = () => {
   return (
-    <div id="resume" className="pt-20 pb-16">
+    <div id="resume" className="pt-20 pb-16 scroll-smooth scroll-mt-20 sm:scroll-mt-28">
       <div className="w-[90%] sm:w-[70%] mx-auto block">
         <div>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">

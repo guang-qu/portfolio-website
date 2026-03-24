@@ -1,8 +1,7 @@
 "use client"; /*client side render to allow for react hooks*/
 import { NavLinks } from "@/constant/constant";
 import Link from "next/link";
-import React, { use, useEffect, useState } from "react";
-import { BiDownload } from "react-icons/bi";
+import React, { useEffect, useState } from "react";
 import { FaCode } from "react-icons/fa";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
@@ -28,7 +27,7 @@ const Navbar = ({ openNav }: NavProps) => {
     <div
       className={`transition-all 
         ${navBg ? "bg-[#0f142ed9] shadow-md" : "fixed"} 
-        duration-200 h-[12vh] z-10000 fixed w-full`}
+        duration-200 h-[10vh] z-10000 fixed w-full`}
     >
       <div className="flex items-center h-full justify-between w-[90%] mx-auto">
         {/* Logo */}

@@ -7,7 +7,7 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div id="contact" className="pt-16 pb-16">
       {/**Contact Me Left Side Info */}
       <div className="w-[90%] md:w-[80%] lg:w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>

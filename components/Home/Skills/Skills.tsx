@@ -44,7 +44,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="text-white pt-16 pb-16">
+    <div id="skills" className="text-white pt-16 pb-16 scroll-smooth scroll-mt-20 sm:scroll-mt-28">
       <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font bold text-white">
         My <span className="text-cyan-300">Skill Set</span>
       </h1>
