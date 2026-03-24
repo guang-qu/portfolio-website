@@ -69,7 +69,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit}>
-      <label htmlFor="name" className="mt-5 bg-[#363659] text-white/70">
+      <label htmlFor="name" className="mt-5 text-white/70">
         Full Name:
       </label>
       <input
@@ -78,10 +78,10 @@ export default function ContactForm() {
         placeholder="First Last"
         value={formData.name}
         onChange={handleChange}
-        className="px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
+        className="px-4 py-3.5 mb-5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
         required
       ></input>
-      <label htmlFor="email" className="mt-1 bg-[#363659] text-white/70">
+      <label htmlFor="email" className="text-white/70">
         Email:
       </label>
       <input
@@ -90,10 +90,10 @@ export default function ContactForm() {
         placeholder="example@email.com"
         value={formData.email}
         onChange={handleChange}
-        className="mt-6 px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
+        className="px-4 py-3.5 mb-5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
         required
       ></input>
-      <label htmlFor="message" className="bg-[#363659] text-white/70">
+      <label htmlFor="message" className="text-white/70">
         Share your thoughts!
       </label>
       <textarea
@@ -101,7 +101,7 @@ export default function ContactForm() {
         value={formData.message}
         onChange={handleChange}
         placeholder="Write your message here"
-        className="mt-6 px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70 h-40"
+        className="px-4 py-3.5 mb-5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70 h-40"
         required
       ></textarea>
       <button

@@ -7,6 +7,7 @@ import {
   SiJavascript,
   SiNextdotjs,
   SiReact,
+  SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
 import Tilt from "react-parallax-tilt";
@@ -15,6 +16,10 @@ const skills = [
   {
     name: "JavaScript",
     icon: <SiJavascript />,
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript />,
   },
   {
     name: "React JS",
@@ -29,12 +34,12 @@ const skills = [
     icon: <SiHtml5 />,
   },
   {
-    name: "CSS",
-    icon: <SiCss />,
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss />,
   },
   {
-    name: "TypeScript",
-    icon: <SiTypescript />,
+    name: "CSS",
+    icon: <SiCss />,
   },
   {
     name: "Java",
