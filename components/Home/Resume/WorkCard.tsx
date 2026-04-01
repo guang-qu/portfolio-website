@@ -1,3 +1,5 @@
+import { ImgProps } from "next/dist/shared/lib/get-img-props";
+import { ImageLoader } from "next/image";
 import React from "react";
 import { IconType } from "react-icons";
 
@@ -24,9 +26,7 @@ const WorkCard = ({ Icon, role, date, desc }: Props) => {
           <h1 className="text-gray-200 text-xl sm:text-2xl font-semibold">
             {role}
           </h1>
-          <p className="text-gray-300 text-sm sm:text-base pt-3">
-            {desc}
-          </p>
+          <p className="text-gray-300 text-sm sm:text-base pt-3">{desc}</p>
         </div>
       </div>
     </div>

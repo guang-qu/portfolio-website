@@ -7,11 +7,14 @@ import { SiBookstack } from "react-icons/si";
 
 const Resume = () => {
   return (
-    <div id="resume" className="pt-20 pb-16 scroll-smooth scroll-mt-20 sm:scroll-mt-28">
+    <div
+      id="resume"
+      className="pt-20 pb-16 scroll-smooth scroll-mt-20 sm:scroll-mt-28"
+    >
       <div className="w-[90%] sm:w-[70%] mx-auto block">
         <div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            My <span className="text-cyan-200">Work Experience</span>
+          <h1 className="text-2xl md:text-4xl xl:text-5xl font-bold text-white">
+            My <span className="text-cyan-300">Work Experience</span>
           </h1>
           <div className="mt-10">
             <WorkCard
@@ -29,7 +32,7 @@ const Resume = () => {
             <WorkCard
               Icon={MdLocalHospital}
               role="Reunion Medical Services PLLC - Medical Assistant"
-              date="Apr 2015 - Feb 2020"
+              date="Nov 2015 - Feb 2020"
               desc="Served diverse population of NYC to increase patient satisfaction, compliance, and health outcomes."
             />
             <WorkCard

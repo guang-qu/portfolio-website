@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useEffect } from "react";
 import Hero from "./Hero/Hero";
 import Resume from "./Resume/Resume";
@@ -16,7 +16,7 @@ const Home = () => {
         duration: 1000,
         easing: "ease",
         once: true,
-        anchorPlacement: 'top-bottom'
+        anchorPlacement: "top-bottom",
       });
     };
 
@@ -28,7 +28,7 @@ const Home = () => {
       <Hero />
       <Skills />
       <Resume />
-      {/**<Projects />*/}
+      <Projects />
       <Contact />
     </div>
   );
