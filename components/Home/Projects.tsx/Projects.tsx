@@ -18,7 +18,7 @@ const Projects = () => {
             height={650}
             className="rounded-lg"
           />
-          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Modern Portfolio Website | <a href="https://github.com/guang-qu/portfolio-website" className="text-cyan-200">GitHub Link</a></h1>
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Modern Portfolio Website | <a href="https://github.com/guang-qu/portfolio-website" target="_blank" className="text-cyan-200">GitHub Link</a></h1>
           <h1 className="pt-2 font-medium text-white/80">Front-End Visuals, API Integration</h1>
         </div>
       </div>
