@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div id="projects" className="pt-16 pb-16">
+    <div id="projects" className="pt-16 pb-16 scroll-mt-20 sm:scroll-mt-28">
       <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-cyan-300">
         Technical Projects
       </h1>
